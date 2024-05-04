@@ -1,6 +1,7 @@
 
 import { MoralisProvider } from "react-moralis";  
 import {NotificationProvider} from "web3uikit"
+import "../style/globals.css"
 function MyApp({ Component, pageProps }) {
   return (
     <MoralisProvider initializeOnMount={false}>
